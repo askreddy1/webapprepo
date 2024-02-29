@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "4ac284cd-6ad1-46a5-92dc-84e77b82c309"
+        },
+        "resourceGroupName": {
+            "value": "RG10"
+        },
+        "name": {
+            "value": "webcp1234"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "santhoshlinux"
+        },
+        "serverFarmResourceGroup": {
+            "value": "RG10"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "linuxFxVersion": {
+            "value": "PHP|8.2"
+        }
+    }
+}
